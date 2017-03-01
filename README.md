@@ -11,13 +11,14 @@
 
 ** callbackFn **  //点击事件回调函数
 
+## 案例
 
 ```
 var page = Util.pageRender({
-	obj : $el,
-	iNowPage : iNowPage,
+	obj : $('#page'),
+	iNowPage : 1,
 	pageMax : 10,
-	pageTotal : totalPage,
+	pageTotal : 99,
 	callbackFn : function(opts){
 		fn && fn(opts)
 	}
